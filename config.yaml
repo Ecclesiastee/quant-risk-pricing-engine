@@ -1,0 +1,12 @@
+market_data:
+  risk_free_rate: 0.03
+  default_symbol: "AAPL"
+
+pricing:
+  mc_simulations: 100000
+  seed: 42
+
+risk:
+  confidence_level: 0.95
+  time_horizon_days: 1
+  mc_var_simulations: 50000
